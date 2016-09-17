@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.velocityf16.bitbuy2.sellactivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:layout_alignParentTop="true"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ledger"
+            android:id="@+id/ledger"
+            android:layout_weight="0.35"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="store"
+            android:id="@+id/store"
+            android:layout_weight="0.29"
+            android:visibility="visible"
+            android:typeface="normal"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="new item"
+            android:id="@+id/newItem"
+            android:layout_weight="0.35"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </LinearLayout>
+</RelativeLayout>
